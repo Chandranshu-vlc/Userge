@@ -29,7 +29,6 @@ async def alive(message: Message):
 • 🧬 **Pyrogram Version** : `{versions.__pyro_version__}`
 • ⚡ **Userge Version** : `{get_version()}`
 • ✍ **License** : {versions.__license__}
-• © **Copyright** : {versions.__copyright__}
 • 🌟 **Repo** : [Userge]({Config.UPSTREAM_REPO})
 """
     await message.client.send_message(message.chat.id, output, disable_web_page_preview=True)
