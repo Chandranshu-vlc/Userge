@@ -22,15 +22,15 @@ async def alive(message: Message):
     output = f"""
 **USERGE is Up and Running**
 
-       __Durable as a Serge__
+       __Guru's Userbot ⚡__
 
-• **uptime** : `{userge.uptime}`
-• **python version** : `{versions.__python_version__}`
-• **pyrogram version** : `{versions.__pyro_version__}`
-• **userge version** : `{get_version()}`
-• **license** : {versions.__license__}
-• **copyright** : {versions.__copyright__}
-• **repo** : [Userge]({Config.UPSTREAM_REPO})
+• ⏱ **Uptime** : `{userge.uptime}`
+• 🐍 **Python Version** : `{versions.__python_version__}`
+• 🧬 **Pyrogram Version** : `{versions.__pyro_version__}`
+• ⚡ **Userge Version** : `{get_version()}`
+• ✍ **License** : {versions.__license__}
+• © **Copyright** : {versions.__copyright__}
+• 🌟 **Repo** : [Userge]({Config.UPSTREAM_REPO})
 """
     await message.client.send_message(message.chat.id, output, disable_web_page_preview=True)
 
