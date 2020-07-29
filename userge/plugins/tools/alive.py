@@ -20,15 +20,14 @@ async def alive(message: Message):
     await message.delete()
     await sendit(message)
     output = f"""
-**USERGE PRO is Up and Running**
+**U S Σ RＧE ** **__Pro__ is Up & Running**
 
-       __Guru's Userbot ⚡__
+       __Only For Pro Users⚡__
 
 • ⏱ **Uptime** : `{userge.uptime}`
 • 🐍 **Python Version** : `{versions.__python_version__}`
 • 🧬 **Pyrogram Version** : `{versions.__pyro_version__}`
 • ⚡ **Userge Version** : `{get_version()}`
-• ✍ **License** : {versions.__license__}
 • 🌟 **Repo** : [Userge](https://github.com/Guru2509/Userge)
 """
     await message.client.send_message(message.chat.id, output, disable_web_page_preview=True)
@@ -36,7 +35,7 @@ async def alive(message: Message):
 
 async def refresh_id():
     global LOGO_STICKER_ID, LOGO_STICKER_REF  # pylint: disable=global-statement
-    sticker = (await userge.get_messages('MyUserge',213 )).sticker
+    sticker = (await userge.get_messages('MyUserge',417 )).sticker
     LOGO_STICKER_ID = sticker.file_id
     LOGO_STICKER_REF = sticker.file_ref
 
