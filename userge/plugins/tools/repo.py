@@ -17,7 +17,7 @@ async def see_repo(message: Message):
 
     __Durable as a Serge__
 
-• ⚡ **Uerge Version** : `{get_version()}`
+• ⚡ **Uerge Pro Version** : `{get_version()}`
 • ✍️ **License** : {versions.__license__}
 • 🌟 **Repo** : [Userge](https://github.com/Guru2509/Userge)
 """
