@@ -20,7 +20,7 @@ async def alive(message: Message):
     await message.delete()
     await sendit(message)
     output = f"""
-**USERGE is Up and Running**
+**USERGE PRO is Up and Running**
 
        __Guru's Userbot ⚡__
 
