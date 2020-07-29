@@ -15,10 +15,6 @@ async def see_repo(message: Message):
     output = f"""
 **Hey**, __I am using__ 🔥 **Userge PRO** 🔥
 
-    __Durable as a Serge__
-
-• ⚡ **Uerge Pro Version** : `{get_version()}`
-• ✍️ **License** : {versions.__license__}
 • 🌟 **Repo** : [Userge](https://github.com/Guru2509/Userge)
 """
     await message.edit(output)
